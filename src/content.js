@@ -1,5 +1,6 @@
 // content.js
 
+
 var form = document.forms['frmHTTPClientLogin'];
 form.addEventListener('submit',function(evt){
 	evt.preventDefault();
@@ -58,4 +59,5 @@ form.addEventListener('submit',function(evt){
 	};
 	xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	xhr.send("mode=451&json=%7B%22username%22%3A%22"+ username +"%22%2C%22password%22%3A%22"+ password +"%22%2C%22languageid%22%3A%221%22%2C%22browser%22%3A%22Chrome_47%22%7D&__RequestType=ajax");
+	
 });
