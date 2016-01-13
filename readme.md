@@ -9,8 +9,7 @@
 
 <br><br>
 <b>For suggestions to improve, mail me at arushgyl@gmail.com</b>
-<br><br>
-
-<b>Update: Please visit <a href="https://172.22.2.2/">https://172.22.2.2/</a> atleast once before using the extension, to accept the ssl certificate warning.</b> <br>
+<br>
+<b>Update: Please visit <a href="https://172.22.2.2/">https://172.22.2.2/</a> atleast once before using the extension, to accept the ssl certificate warning.</b> <br><br>
 <b>Cheers!</b>
 
