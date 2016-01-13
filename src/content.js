@@ -1,7 +1,17 @@
 // content.js
 
 
+/* To override the default window.alert 
+ * so that chrome doesnot asks to open a new popup.
+ * Cannot simply override due to sandboxing of extentions
+ */
+location.href="javascript: window.alert = function(x) {console.log(x)};";
+
+/* The submit event dont fire if popup is allowed
+ * so the extension wont work
+ */
 var form = document.forms['frmHTTPClientLogin'];
+
 form.addEventListener('submit',function(evt){
 	evt.preventDefault();
 	username = form['username'].value;
